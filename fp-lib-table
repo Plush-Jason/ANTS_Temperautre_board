@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "2020RASPBERRY_PI_PICO")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_PICO")(options "")(descr ""))
+  (lib (name "ADAFRUIT")(type "KiCad")(uri "${KIPRJMOD}/269")(options "")(descr ""))
+)
