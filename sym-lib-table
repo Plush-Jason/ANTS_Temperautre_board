@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "2020RASPBERRY_PI_PICO")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_PICO/RASPBERRY_PI_PICO.kicad_sym")(options "")(descr ""))
   (lib (name "ADAFRUIT")(type "KiCad")(uri "${KIPRJMOD}/269/269.kicad_sym")(options "")(descr ""))
+  (lib (name "TERM BLOCK")(type "KiCad")(uri "${KIPRJMOD}/1751251/1751251.kicad_sym")(options "")(descr ""))
 )
