@@ -3,4 +3,5 @@
   (lib (name "2020RASPBERRY_PI_PICO")(type "KiCad")(uri "${KIPRJMOD}/RASPBERRY_PI_PICO")(options "")(descr ""))
   (lib (name "ADAFRUIT")(type "KiCad")(uri "${KIPRJMOD}/269")(options "")(descr ""))
   (lib (name "67TERM BLOCK")(type "KiCad")(uri "${KIPRJMOD}/1751251")(options "")(descr ""))
+  (lib (name "2 PIN TERM")(type "KiCad")(uri "${KIPRJMOD}/EBWA_02_A (1)")(options "")(descr ""))
 )
