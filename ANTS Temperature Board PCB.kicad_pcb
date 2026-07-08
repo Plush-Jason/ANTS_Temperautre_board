@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Value" "IRLZ34N"
-			(at 2.54 2.2 90)
+			(at 2.54 -1.88 90)
 			(layer "F.Fab")
 			(uuid "f645c1ab-d35c-4c7b-a4c9-e3ba5841f9b2")
 			(effects
@@ -3389,7 +3389,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A"
-			(at 3.67 4.76 0)
+			(at -0.000825 -1.51 0)
 			(layer "F.Fab")
 			(uuid "f3e1c462-88cb-4ce7-9991-9adf34739947")
 			(effects
@@ -3682,7 +3682,7 @@
 			)
 		)
 		(property "Value" "IRLZ34N"
-			(at 2.54 2.2 90)
+			(at 2.54 -1.88 90)
 			(layer "F.Fab")
 			(uuid "230418aa-a38b-4368-9aae-02ad5499c035")
 			(effects
@@ -4426,7 +4426,7 @@
 			(at -0.75 -4.76 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ee1946ec-9099-4e6a-9905-56b1a5cbb355")
+			(uuid "89c82490-717c-432b-a4f1-2a3a14e9bfb9")
 			(effects
 				(font
 					(size 1 1)
@@ -4435,9 +4435,9 @@
 			)
 		)
 		(property "Value" "B2B-XH-A"
-			(at 3.67 4.76 0)
+			(at -0.000825 -1.51 0)
 			(layer "F.Fab")
-			(uuid "972927da-d763-464d-ad7b-dfcbd69296ed")
+			(uuid "b5121075-e8d4-484c-8fbe-49506092bbbd")
 			(effects
 				(font
 					(size 1 1)
@@ -4449,7 +4449,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a29295ad-9626-4aaf-9ec2-b189f9a19f44")
+			(uuid "af24433a-6b47-4ee0-9448-271c206d1dbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4460,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d38e4b83-3403-4235-b3e8-2570b06ba466")
+			(uuid "1c9cd153-56d2-4674-9e18-2d42b41dcf34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,6 +6352,18 @@
 			)
 		)
 	)
+	(gr_text "Left-TX\nRight-RX"
+		(at 90.77 92.45 0)
+		(layer "F.SilkS")
+		(uuid "a6756c51-5cf5-4ab1-a723-637665ea179b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "Raspberry Pi Pico"
 		(at 82.300825 61.98 90)
 		(layer "F.SilkS")
@@ -6400,6 +6412,28 @@
 		(at 100.800825 69.0375 90)
 		(layer "F.SilkS")
 		(uuid "a18ac16e-d558-495c-ba77-abca5f3a1c23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "IRLZ34N"
+		(at 101.77 53.88 90)
+		(layer "F.SilkS")
+		(uuid "fc70550c-82a4-438c-bca2-b8976dc4ac9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "IRLZ34N"
+		(at 101.77 81.0175 90)
+		(layer "F.SilkS")
+		(uuid "21625340-0d37-485f-9693-c138358a5834")
 		(effects
 			(font
 				(size 1 1)
