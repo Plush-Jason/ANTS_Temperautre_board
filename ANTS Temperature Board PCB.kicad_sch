@@ -3396,16 +3396,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 130.81 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ebebf42-342e-4f99-9860-d8919735e022")
-	)
-	(wire
-		(pts
 			(xy 186.69 78.74) (xy 186.69 80.01)
 		)
 		(stroke
@@ -3433,6 +3423,16 @@
 			(type default)
 		)
 		(uuid "3d0ddb8d-8c7b-449c-8a1b-2cebf15d6b0e")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dde841f-837c-4d2e-ad87-eab67cc29f70")
 	)
 	(wire
 		(pts
@@ -3786,16 +3786,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 92.71) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c66a0c-921a-4643-9046-04e2931cfdf2")
-	)
-	(wire
-		(pts
 			(xy 92.71 107.95) (xy 92.71 109.22)
 		)
 		(stroke
@@ -3896,6 +3886,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 92.71) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52b2517-f5c9-49bf-b090-a6a0bd1d1f79")
+	)
+	(wire
+		(pts
 			(xy 176.53 124.46) (xy 176.53 116.84)
 		)
 		(stroke
@@ -3984,16 +3984,6 @@
 		)
 		(uuid "1b776c0f-4161-467c-a0ed-0f706d5af550")
 	)
-	(label "SIGNAL2"
-		(at 139.7 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ceabca0-2f96-469e-a384-d177538d8ddc")
-	)
 	(label "UART_RX"
 		(at 137.16 110.49 0)
 		(effects
@@ -4013,16 +4003,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a82d1c2-4963-47f9-b766-78b1647567da")
-	)
-	(label "mosfet1_gate"
-		(at 139.7 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68addad9-b29d-47b0-91d6-da15b9e8ee8e")
 	)
 	(label "VSYS"
 		(at 135.89 67.31 0)
@@ -4084,6 +4064,16 @@
 		)
 		(uuid "b6adc101-c436-47cf-8c43-2639af773c27")
 	)
+	(label "mosfet1_gate"
+		(at 139.7 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c92609b0-5ec7-4fbe-b592-1519e4bf5fc8")
+	)
 	(label "UART_TX"
 		(at 137.16 113.03 0)
 		(effects
@@ -4103,6 +4093,16 @@
 			(justify left bottom)
 		)
 		(uuid "db8568be-b8e9-4ff0-9805-200258d11782")
+	)
+	(label "SIGNAL2"
+		(at 139.7 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e293daab-219d-42c5-bb08-b10be9747d4c")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
