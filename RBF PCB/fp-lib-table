@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DF-11") (type "KiCad") (uri "${KIPRJMOD}/B2B_XH_A (1)") (options "") (descr ""))
+	(lib (name "FOOT print libary") (type "KiCad") (uri "${KIPRJMOD}/FOOT print libary.pretty") (options "") (descr ""))
+)
