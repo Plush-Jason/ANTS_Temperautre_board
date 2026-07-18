@@ -1,0 +1,13 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-16052011-063907";"";
+"REFERENCE";"SS-5GL13";"";
+"TraceParts.ClassPath";"";"";
+"TraceParts.PartVersion";"1.2.5";"";
+"TraceParts.InstanceId";"10-16052011-063907AY8ZPI6N9G57L154943CURVC";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartTitle";"Subminiature Basic Switch – SS";"";
+"SUPPLIER";"OMRON";"";
+"DESIGN";"Subminiature Basic Switch, 5A, Simulated roller lever actuator, 1.47 N";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartStatusId";"";"";

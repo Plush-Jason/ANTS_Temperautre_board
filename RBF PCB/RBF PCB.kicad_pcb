@@ -555,6 +555,17 @@
 			(uuid "196bd14c-26b9-4744-a120-d0c9d7977ffa")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/jason/OneDrive/Documents/GitHub/ANTS_Temperautre_board/B2B_XH_A (1)/B2B-XH-A.step"
+			(offset
+				(xyz 0 0 0.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_Hirose:Hirose_DF11-12DP-2DSA_2x06_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -1021,15 +1032,15 @@
 			(uuid "28b2b530-be4b-455b-91f6-bd35bc2a4b9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF11-12DP-2DSA_2x06_P2.00mm_Vertical.step"
+		(model "${KIPRJMOD}/DF11_12DP_2DSA_01_/DF11-12DP-2DSA.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.8 -26.15 6.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -1498,15 +1509,15 @@
 			(uuid "a3d4975f-0b17-4541-8a9e-90e8567dac70")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF11-12DP-2DSA_2x06_P2.00mm_Vertical.step"
+		(model "${KIPRJMOD}/DF11_12DP_2DSA_01_/DF11-12DP-2DSA.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.8 -26.15 6.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -1975,15 +1986,15 @@
 			(uuid "4d582d19-b1f8-4eda-a503-79fa3e8c0c92")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF11-12DP-2DSA_2x06_P2.00mm_Vertical.step"
+		(model "${KIPRJMOD}/DF11_12DP_2DSA_01_/DF11-12DP-2DSA.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.8 -26.15 6.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -2148,6 +2159,17 @@
 			(uuid "2f7ea721-7d39-4e0b-b6a1-0f732b3c6daa")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/187463798-19-ss-5gl13/ss-5gl13.stp"
+			(offset
+				(xyz 1.5 6.8 0.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 		(layer "F.Cu")
@@ -2804,15 +2826,15 @@
 			(uuid "c0bacd67-b822-4665-b55a-5e0b120a0cca")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Hirose.3dshapes/Hirose_DF11-12DP-2DSA_2x06_P2.00mm_Vertical.step"
+		(model "${KIPRJMOD}/DF11_12DP_2DSA_01_/DF11-12DP-2DSA.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.8 -26.15 6.8)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -0)
 			)
 		)
 	)

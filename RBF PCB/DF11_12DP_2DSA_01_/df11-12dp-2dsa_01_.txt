@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"DF11-12DP-2DSA(01)";"";
+"TraceParts.PartVersion";"1.2.3";"";
+"SUPPLIER";"HIROSE";"";
+"cl_code";"CL0543-0521-2-01";"";
+"TraceParts.PartNumber";"90-14112022-063941";"";
+"hrs_no";"5430521201";"";
+"series_name";"DF11";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"DF11 Series - 2.0mm Pitch, Double-Row Connector -DF11-12DP-2DSA(01)-CL0543-0521-2-01";"";
+"TraceParts.InstanceId";"90-14112022-0639411PCPAAR5WA45GTC6K1WX2AW4N";"";
+"TraceParts.PartTitle";"[SignalBee] 2.0mm Double-Row Connectors (UL/CSA Certified)";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"mass";"0.38";"";
