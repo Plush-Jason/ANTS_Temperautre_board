@@ -1752,172 +1752,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EBWA-02-A_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J4"
-				(at 6.35 0.0001 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "EBWA-02-A"
-				(at 6.35 -2.5399 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "2 PIN TERM:ADAMTECH_EBWA-02-A"
-				(at 1.016 9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTREV" "A"
-				(at 0 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.762 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
-				(at 0.254 4.826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "AdamTech"
-				(at 0.254 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "EBWA-02-A_1_0_0"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "EBWA-02-A_1_1_0"
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "PWR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "Drain"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EBWA-02-A_2"
 			(pin_names
 				(offset 1.016)
@@ -3041,30 +2875,6 @@
 		(uuid "21f1b001-0b39-4744-b8d3-fa1022461fbe")
 	)
 	(rectangle
-		(start 31.75 87.63)
-		(end 80.01 119.38)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "48e35cf2-53a6-46f7-a9ba-4bc7cd809afb")
-	)
-	(rectangle
-		(start 153.67 91.44)
-		(end 231.14 132.08)
-		(stroke
-			(width 0.127)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "aa2f46a4-ff46-4b74-b2be-3ce071b899aa")
-	)
-	(rectangle
 		(start 153.67 48.26)
 		(end 231.14 88.9)
 		(stroke
@@ -3089,40 +2899,16 @@
 		(uuid "336d37ac-0b41-4187-bb9b-b861f42ef6d3")
 	)
 	(junction
-		(at 63.5 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56cc8c0a-5c85-4231-8375-bb50855d1523")
-	)
-	(junction
-		(at 63.5 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a4059dc-e6fe-48c7-a6a6-da68a2901121")
-	)
-	(junction
 		(at 63.5 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ae3fa1f-4cbe-4e68-b241-8bb8376db09d")
 	)
 	(junction
-		(at 186.69 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c945685-031f-4837-825e-e14c5fb9bf60")
-	)
-	(junction
 		(at 177.8 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f7cf4b-f91f-4a2c-975c-2c09ae7fd64b")
-	)
-	(junction
-		(at 176.53 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da782fa9-3885-4bdf-bdfd-8f8fde5d41d1")
 	)
 	(no_connect
 		(at 130.81 105.41)
@@ -3189,6 +2975,10 @@
 		(uuid "84344cad-6154-44c8-aca3-9f62c3859c05")
 	)
 	(no_connect
+		(at 130.81 92.71)
+		(uuid "88b484e4-1ec5-43ed-8fc4-a06c647cf862")
+	)
+	(no_connect
 		(at 105.41 85.09)
 		(uuid "8d452055-8aa3-457f-ae71-207b549580cd")
 	)
@@ -3223,6 +3013,10 @@
 	(no_connect
 		(at 105.41 77.47)
 		(uuid "e90d1725-7e2b-42b9-abe3-46233588d3d3")
+	)
+	(no_connect
+		(at 130.81 100.33)
+		(uuid "edfad7e7-5da7-42fe-877b-6c7b5dee23bc")
 	)
 	(wire
 		(pts
@@ -3266,16 +3060,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 63.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15676037-22f8-4121-b0ea-1cb68e1108b2")
-	)
-	(wire
-		(pts
 			(xy 243.84 74.93) (xy 237.49 74.93)
 		)
 		(stroke
@@ -3293,16 +3077,6 @@
 			(type default)
 		)
 		(uuid "1802bdc3-9838-4339-8bcf-d27acbbab0c3")
-	)
-	(wire
-		(pts
-			(xy 59.69 110.49) (xy 76.2 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a6669d4-eef2-4077-806b-37aac0ff6a0d")
 	)
 	(wire
 		(pts
@@ -3326,16 +3100,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 63.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20da4c38-477e-4800-8978-820ddba01353")
-	)
-	(wire
-		(pts
 			(xy 105.41 107.95) (xy 92.71 107.95)
 		)
 		(stroke
@@ -3353,16 +3117,6 @@
 			(type default)
 		)
 		(uuid "279dd6c2-6289-41eb-a5ce-b892d7f82ea8")
-	)
-	(wire
-		(pts
-			(xy 140.97 100.33) (xy 130.81 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298bef59-bc79-4ca3-8d38-66f87c552056")
 	)
 	(wire
 		(pts
@@ -3406,16 +3160,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 176.53 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d6d77a-152c-4738-9b29-0bd6cb873a5b")
-	)
-	(wire
-		(pts
 			(xy 135.89 69.85) (xy 135.89 71.12)
 		)
 		(stroke
@@ -3433,16 +3177,6 @@
 			(type default)
 		)
 		(uuid "3dde841f-837c-4d2e-ad87-eab67cc29f70")
-	)
-	(wire
-		(pts
-			(xy 154.94 116.84) (xy 167.64 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6125ac-b866-45b0-b017-4750456aff13")
 	)
 	(wire
 		(pts
@@ -3496,16 +3230,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 116.84) (xy 176.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f737a7e-06c6-43ba-835b-506b0a27bdeb")
-	)
-	(wire
-		(pts
 			(xy 137.16 113.03) (xy 130.81 113.03)
 		)
 		(stroke
@@ -3556,26 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 107.95) (xy 76.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6737cc-61be-4d9c-861c-3ccf3bc8c049")
-	)
-	(wire
-		(pts
-			(xy 59.69 97.79) (xy 63.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bcc090b-6df5-4eef-b88d-2aceadfea5d9")
-	)
-	(wire
-		(pts
 			(xy 137.16 110.49) (xy 130.81 110.49)
 		)
 		(stroke
@@ -3583,16 +3287,6 @@
 			(type default)
 		)
 		(uuid "6c4cf749-6463-40ec-b90d-db07bf26d424")
-	)
-	(wire
-		(pts
-			(xy 185.42 124.46) (xy 186.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dabb938-2532-4a1b-afc2-f70bbcf374dd")
 	)
 	(wire
 		(pts
@@ -3666,16 +3360,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 121.92) (xy 186.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed79056-4435-4bb6-99b2-663052aa85c6")
-	)
-	(wire
-		(pts
 			(xy 130.81 74.93) (xy 143.51 74.93)
 		)
 		(stroke
@@ -3713,16 +3397,6 @@
 			(type default)
 		)
 		(uuid "8a26449d-21e1-4ee8-9cc2-296dbec2f530")
-	)
-	(wire
-		(pts
-			(xy 76.2 110.49) (xy 76.2 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a50f33b-efb0-4014-8e7f-53804fcf4021")
 	)
 	(wire
 		(pts
@@ -3766,26 +3440,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 97.79) (xy 76.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ae192a-3cf3-4225-9da3-bd473448aba0")
-	)
-	(wire
-		(pts
-			(xy 193.04 99.06) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80cc496-5b52-448c-b3b9-609cc1ec1111")
-	)
-	(wire
-		(pts
 			(xy 92.71 107.95) (xy 92.71 109.22)
 		)
 		(stroke
@@ -3793,16 +3447,6 @@
 			(type default)
 		)
 		(uuid "ab0e0cfa-e43d-4e0a-82ed-d1f58945bf18")
-	)
-	(wire
-		(pts
-			(xy 76.2 96.52) (xy 76.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e117b8-0f49-46d0-9c85-6ba0f18e426f")
 	)
 	(wire
 		(pts
@@ -3846,36 +3490,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 200.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ecf9d8-d67a-43f7-91f0-da9cd36a037a")
-	)
-	(wire
-		(pts
-			(xy 176.53 116.84) (xy 179.07 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c47834-b791-414b-9fa1-a73e9d45b705")
-	)
-	(wire
-		(pts
-			(xy 186.69 111.76) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f5be2a-4c1b-43a8-9050-8551c4cabe2c")
-	)
-	(wire
-		(pts
 			(xy 105.41 95.25) (xy 92.71 95.25)
 		)
 		(stroke
@@ -3883,36 +3497,6 @@
 			(type default)
 		)
 		(uuid "d5255578-d294-4343-903c-326b8491efe8")
-	)
-	(wire
-		(pts
-			(xy 139.7 92.71) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52b2517-f5c9-49bf-b090-a6a0bd1d1f79")
-	)
-	(wire
-		(pts
-			(xy 176.53 124.46) (xy 176.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db48f5e8-8d55-4f88-ba0d-bac050f18c79")
-	)
-	(wire
-		(pts
-			(xy 200.66 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dda7ce3c-2881-4b98-8246-e6ebee322887")
 	)
 	(wire
 		(pts
@@ -3943,46 +3527,6 @@
 			(type default)
 		)
 		(uuid "ecbf2931-d4b4-4fac-abc0-698544f53c00")
-	)
-	(wire
-		(pts
-			(xy 59.69 105.41) (xy 59.69 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef408012-30cd-4a7f-8a9f-db92d36a912a")
-	)
-	(wire
-		(pts
-			(xy 59.69 107.95) (xy 63.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe4a8f74-45bf-4b95-8b5e-901641bb4673")
-	)
-	(label "SIGNAL2"
-		(at 76.2 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b59b758-7e9e-4ba5-bbf2-62b65db049c9")
-	)
-	(label "mosfet2_gate"
-		(at 154.94 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b776c0f-4161-467c-a0ed-0f706d5af550")
 	)
 	(label "UART_RX"
 		(at 137.16 110.49 0)
@@ -4023,16 +3567,6 @@
 			(justify right bottom)
 		)
 		(uuid "95722b3b-cf08-4d9f-8cf0-9585b0bfa1c7")
-	)
-	(label "mosfet2_gate"
-		(at 140.97 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98309c7a-6ecf-40c9-ada2-c604c1fe7436")
 	)
 	(label "VSYS"
 		(at 237.49 72.39 0)
@@ -4094,16 +3628,6 @@
 		)
 		(uuid "db8568be-b8e9-4ff0-9805-200258d11782")
 	)
-	(label "SIGNAL2"
-		(at 139.7 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e293daab-219d-42c5-bb08-b10be9747d4c")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 123.19 124.46 0)
@@ -4138,7 +3662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4178,129 +3702,6 @@
 			(project "ANTS Temperature Board PCB"
 				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "1751251_1")
-		(lib_id "TERM BLOCK:1751251")
-		(at 49.53 107.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a997cb0-8a7e-4182-a5af-1b073fa26eae")
-		(property "Reference" "J2"
-			(at 41.91 109.2201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1751251"
-			(at 41.91 106.6801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "67TERM BLOCK:PHOENIX_1751251"
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "03.03.2021"
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Phoenix Contact"
-			(at 49.53 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "02"
-			(uuid "8b7b7066-a5c0-417f-a781-23e8c932010f")
-		)
-		(pin "01"
-			(uuid "fb1e577a-2072-41dd-baa7-cf98da5353fa")
-		)
-		(pin "03"
-			(uuid "4300cb51-44cb-48d6-8eed-03efb12fd100")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4495,7 +3896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 97.79 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4620,217 +4021,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "35c927da-a1cc-4a7b-84d8-f092d637c549")
-		(property "Reference" "R6"
-			(at 67.31 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 67.31 103.886 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 61.722 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe5b3ffd-e94d-4110-bf63-2ffcce36d786")
-		)
-		(pin "2"
-			(uuid "a8909fec-9349-430a-a6a1-bc85f0f2d3e0")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "EBWA-02-A_1")
-		(lib_id "2 PIN TERM:EBWA-02-A")
-		(at 210.82 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3abae354-ae9c-45f0-94f0-4f248d837a60")
-		(property "Reference" "J4"
-			(at 217.17 106.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EBWA-02-A"
-			(at 217.17 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2 PIN TERM:ADAMTECH_EBWA-02-A"
-			(at 211.836 97.536 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 210.82 103.632 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 211.582 94.996 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.5mm"
-			(at 211.074 101.854 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "AdamTech"
-			(at 211.074 99.822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "e083a003-e6a5-40d6-b0f5-f33ef2a61bb7")
-		)
-		(pin "2"
-			(uuid "cb52c0b8-e023-4c0a-b208-c9b211da362a")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 63.5 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -4903,172 +4093,6 @@
 			(project "ANTS Temperature Board PCB"
 				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4edf2ba9-b613-41db-839e-3c7f0619b839")
-		(property "Reference" "#PWR02"
-			(at 186.69 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1d82dc1-9a57-4fe9-b354-8bd170937895")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLZ34N")
-		(at 184.15 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52a6f34a-e319-457b-889c-73005c42bdf6")
-		(property "Reference" "Q2"
-			(at 190.5 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLZ34N"
-			(at 190.5 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 189.23 118.745 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720"
-			(at 189.23 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 184.15 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8ef1b179-afab-4d2d-aabe-cd924854d4ef")
-		)
-		(pin "1"
-			(uuid "b0edd201-00d6-4a9d-a70b-a31df63c7981")
-		)
-		(pin "3"
-			(uuid "83d6e9e2-f4f4-46b1-b1c2-d33a9cbecb7d")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5397,84 +4421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "662549d1-162c-455f-bb8e-8d4d3bfcb4ce")
-		(property "Reference" "#PWR015"
-			(at 76.2 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31fcf990-c2ab-4cdf-b0d7-129a3749b56e")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 251.46 54.61 180)
 		(unit 1)
@@ -5553,85 +4499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 181.61 124.46 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a8e3b5e-f5f0-4b3a-a8bc-26e52039ac99")
-		(property "Reference" "R2"
-			(at 181.61 120.142 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 181.61 122.174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 181.61 126.238 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19c507a2-4fb4-4a4d-bfa8-e03bdc789637")
-		)
-		(pin "2"
-			(uuid "9bb6a4ff-f8d7-470a-b11d-05094648274a")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 81.28 0)
 		(unit 1)
@@ -5704,84 +4571,6 @@
 			(project "ANTS Temperature Board PCB"
 				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 76.2 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7149adc8-86f8-4af2-a2d9-7200347b0814")
-		(property "Reference" "#PWR016"
-			(at 76.2 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 76.2 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 76.2 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f1df1a5-aad2-46e0-b216-120b7906fe32")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6520,84 +5309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+7.5V")
-		(at 193.04 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97b9db0b-5355-4c48-b291-06377f7e8499")
-		(property "Reference" "#PWR020"
-			(at 193.04 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+7.5V"
-			(at 193.04 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 193.04 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08da5d4d-2be7-495a-b543-79807c47b133")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 123.19 143.51 0)
 		(unit 1)
@@ -6631,7 +5342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 123.19 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6866,7 +5577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 			(at 97.79 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7377,7 +6088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.224 96.52 0)
+			(at 143.51 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8072,86 +6783,6 @@
 			(project "ANTS Temperature Board PCB"
 				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb1129a6-8952-4091-91a1-1e695b016dfa")
-		(property "Reference" "R8"
-			(at 171.45 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 171.45 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 171.45 118.618 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9dd1cba6-b16c-4de0-85a1-b32abf4d9bdc")
-		)
-		(pin "2"
-			(uuid "650865e9-c23f-49db-9f6f-9cac77d532ef")
-		)
-		(instances
-			(project "ANTS Temperature Board PCB"
-				(path "/888122f0-519b-47ac-bd2c-ecc1a2102290"
-					(reference "R8")
 					(unit 1)
 				)
 			)
